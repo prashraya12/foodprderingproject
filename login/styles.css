@@ -7,6 +7,13 @@ body{
     background-size: cover;        
 }
 
+input{
+
+
+    background-color: red;
+}
+
+
 a{
 
     text-decoration: none;
@@ -25,6 +32,38 @@ a:hover{
     justify-content: center;
     align-items:center;
 }
+input{
+
+    background-image:url("useicon.jpg");
+    background-color: palegoldenrod;
+   
+}
+
+.secondcontainer{   
+
+    border:1px solid white;
+    background-color: white;
+    padding:10px;
+
+}
+
+.login1{
+
+    text-align: center;
+}
+img{
+
+    width:2px;
+    height:1px;
+
+}
+.label1{
+
+    background-color: pink;
+    text-align:center;
+
+
+}
 
 
 .third-container{
@@ -35,13 +74,13 @@ a:hover{
 }
 button:hover{
 
-color: red;
+color: blue;
 
 }
 
 label:hover{
 
-    color: white; 
+    color: blue; 
 
 }
 img{
