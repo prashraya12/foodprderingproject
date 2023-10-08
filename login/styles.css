@@ -1,0 +1,66 @@
+body{
+
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    /*background-image: url('coverFood.jpg');*/
+    background-size: cover;        
+}
+
+a{
+
+    text-decoration: none;
+}
+
+a:hover{
+    color:red;
+}
+
+
+.container{
+    background: linear-gradient(to bottom, #3498db, #e74c3c);
+    width:100%;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+
+.third-container{
+
+
+    display:flex;
+    justify-content: space-between;
+}
+button:hover{
+
+color: red;
+
+}
+
+label:hover{
+
+    color: white; 
+
+}
+img{
+
+
+  background-color: purple;
+
+
+
+}
+input[type="text"],
+input[type="password"] {
+    width: 90%; /* Set the width to 100% to expand the input tags to their container's width */
+    padding: 15px; /* Adjust padding for spacing */
+    font-size: 18px; /* Adjust font size as needed */
+    border: 1px solid #ccc; /* Add a border for better visibility */
+    border-radius: 5px; /* Add rounded corners */
+    margin-bottom: 15px; /* Add spacing between input tags */
+}
+
+
+
